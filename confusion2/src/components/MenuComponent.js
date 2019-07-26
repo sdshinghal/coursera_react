@@ -9,7 +9,7 @@ class Menu extends Component {
         this.state = {
             selectedDish: null
 
-        }
+        };
         console.log('Menu Component constructor is invoked')
 
     }
@@ -55,7 +55,7 @@ class Menu extends Component {
             );
         });
 
-        console.log('Menu Component render is invoked')
+        console.log('Menu Component render is invoked');
 
         return (
             <div className="container">
